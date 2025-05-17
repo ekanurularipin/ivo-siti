@@ -58,7 +58,7 @@ header .bg2 {
 }
 #mempelai .bg6 {
   position: absolute;
-  bottom: 150px;
+  bottom: 190px;
   right: 70px;
 }
 #mempelai .bg7 {
@@ -69,7 +69,7 @@ header .bg2 {
 }
 #mempelai .bg8 {
   position: absolute;
-  bottom: 100px;
+  bottom: 140px;
   right: 70px;
 }
 #salamakhir .bg9 {
@@ -80,10 +80,50 @@ header .bg2 {
 }
 #salamakhir .bg99 {
   position: absolute;
-  bottom: 100px;
+  bottom: 150px;
   right: 70px;
 }
 
+#cerita .bgul {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  transform: none; /* tidak dibalik */
+}
+#cerita .bgul2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.kankir {
+  position: relative;
+}
+.bgungu {
+  z-index: -1;
+}
+.bgungu {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bgbul3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  z-index: 1;
+}
+
+.bgbul4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  z-index: 1;
+}
 .akad .bgg {
   position: absolute;
   top: 0;
@@ -156,8 +196,19 @@ header .bg2 {
   background-color: #ffffff;
 }
 #mempelai #m-1 .instagram {
-  width: 20px;
-  color: black;
+  width: 40px;
+  border: #ffffff;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+#mempelai #m-2 .instagram1 {
+  width: 40px;
+  border: #ffffff;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
